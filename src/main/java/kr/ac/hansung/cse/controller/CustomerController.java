@@ -2,17 +2,17 @@ package kr.ac.hansung.cse.controller;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -20,57 +20,97 @@ import org.springframework.web.bind.annotation.RestController;
 import kr.ac.hansung.cse.model.Customer;
 import kr.ac.hansung.cse.repo.CustomerRepository;
 
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/api")
 public class CustomerController {
-	
-	static Logger logger = LoggerFactory.getLogger(CustomerController.class);
- 
+
 	@Autowired
 	CustomerRepository repository;
- 	
-	@GetMapping(value="/customers", produces=MediaType.APPLICATION_JSON_VALUE)	
-	public ResponseEntity<List<Customer>>  getAll() {
-		
-		logger.debug("Calling getAll( )" );
-				
-		List<Customer> list = new ArrayList<>();
-		Iterable<Customer> customers = repository.findAll();
- 
-		customers.forEach(list::add);
-		
-		return new ResponseEntity<List<Customer>>(list, HttpStatus.OK);
-		
+
+	@GetMapping("/customers")
+	public ResponseEntity<List<Customer>> getAllCustomers() {
+		List<Customer> customers = new ArrayList<>();
+		try {
+			repository.findAll().forEach(customers::add);
+
+			if (customers.isEmpty()) {
+				return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+			}
+			return new ResponseEntity<>(customers, HttpStatus.OK);
+		} catch (Exception e) {
+			return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
+		}
 	}
-	
-	@PostMapping(value="/customers")
-	public ResponseEntity<Void> postCustomer(@RequestBody Customer customer) {
- 
-		logger.debug("Calling postCustomer( )" );
-		
-		String firstName = customer.getFirstName();
-		String lastName = customer.getLastName();
-				
-		repository.save(new Customer(firstName, lastName));
-	
-		return new ResponseEntity<Void>(HttpStatus.CREATED);
+
+	@GetMapping("/customers/{id}")
+	public ResponseEntity<Customer> getCustomerById(@PathVariable("id") long id) {
+		Optional<Customer> customerData = repository.findById(id);
+
+		if (customerData.isPresent()) {
+			return new ResponseEntity<>(customerData.get(), HttpStatus.OK);
+		} else {
+			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+		}
 	}
- 
-	@GetMapping(value="/customers/{lastName}",  produces=MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<List<Customer>> findByLastName(@PathVariable String lastName) {
- 
-		logger.debug("Calling findByLastName( )" );
-		
-		List<Customer> customers = repository.findByLastName(lastName);
-		return new ResponseEntity<List<Customer>>(customers, HttpStatus.OK);
+
+	@PostMapping(value = "/customers")
+	public ResponseEntity<Customer> postCustomer(@RequestBody Customer customer) {
+		try {
+			Customer _customer = repository.save(new Customer(customer.getName(), customer.getAge()));
+			return new ResponseEntity<>(_customer, HttpStatus.CREATED);
+		} catch (Exception e) {
+			return new ResponseEntity<>(null, HttpStatus.EXPECTATION_FAILED);
+		}
 	}
-	
-	@DeleteMapping(value="/customers/{id}")
-	public ResponseEntity<Void> deleteCustomer(@PathVariable long id){
-		
-		logger.debug("Calling deleteCustomer( )" );
-		repository.deleteById(id);
-		
-		return new ResponseEntity<Void>(HttpStatus.NO_CONTENT);
+
+	@DeleteMapping("/customers/{id}")
+	public ResponseEntity<HttpStatus> deleteCustomer(@PathVariable("id") long id) {
+		try {
+			repository.deleteById(id);
+			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+		} catch (Exception e) {
+			return new ResponseEntity<>(HttpStatus.EXPECTATION_FAILED);
+		}
+	}
+
+	@DeleteMapping("/customers")
+	public ResponseEntity<HttpStatus> deleteAllCustomers() {
+		try {
+			repository.deleteAll();
+			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+		} catch (Exception e) {
+			return new ResponseEntity<>(HttpStatus.EXPECTATION_FAILED);
+		}
+
+	}
+
+	@GetMapping(value = "customers/age/{age}")
+	public ResponseEntity<List<Customer>> findByAge(@PathVariable int age) {
+		try {
+			List<Customer> customers = repository.findByAge(age);
+
+			if (customers.isEmpty()) {
+				return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+			}
+			return new ResponseEntity<>(customers, HttpStatus.OK);
+		} catch (Exception e) {
+			return new ResponseEntity<>(HttpStatus.EXPECTATION_FAILED);
+		}
+	}
+
+	@PutMapping("/customers/{id}")
+	public ResponseEntity<Customer> updateCustomer(@PathVariable("id") long id, @RequestBody Customer customer) {
+		Optional<Customer> customerData = repository.findById(id);
+
+		if (customerData.isPresent()) {
+			Customer _customer = customerData.get();
+			_customer.setName(customer.getName());
+			_customer.setAge(customer.getAge());
+			_customer.setActive(customer.isActive());
+			return new ResponseEntity<>(repository.save(_customer), HttpStatus.OK);
+		} else {
+			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+		}
 	}
 }

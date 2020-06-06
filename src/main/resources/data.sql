@@ -1,3 +1,3 @@
-insert into customer(firstname, lastname) values ("alice", "kim")
-insert into customer(firstname, lastname) values ("bob", "lee")
-insert into customer(firstname, lastname) values ("charlie", "park")
+insert into customer(name, age, active) values ("alice", 50, true)
+insert into customer(name, age, active) values ("bob", 20, false)
+insert into customer(name, age, active) values ("charlie", 30, true)

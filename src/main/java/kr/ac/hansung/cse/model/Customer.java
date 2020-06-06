@@ -19,7 +19,6 @@ import lombok.ToString;
 @ToString
 @NoArgsConstructor
 public class Customer implements Serializable {
-	
 
 	/**
 	 * 
@@ -28,18 +27,22 @@ public class Customer implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="customer_id")
+	@Column(name = "customer_id")
 	private Long id;
-	 
-	@Column(name="firstname")
-	private String firstName;
- 
-	@Column(name="lastname")
-	private String lastName;
-	
-	public Customer(String firstName, String lastName) {
-		this.firstName = firstName;
-		this.lastName = lastName;
+
+	@Column(name = "name")
+	private String name;
+
+	@Column(name = "age")
+	private int age;
+
+	@Column(name = "active")
+	private boolean active;
+
+	public Customer(String name, int age) {
+		this.name = name;
+		this.age = age;
+		this.active = false;
 	}
 
 }
