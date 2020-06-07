@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 import kr.ac.hansung.cse.model.Customer;
 import kr.ac.hansung.cse.repo.CustomerRepository;
 
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/api")
 public class CustomerController {
