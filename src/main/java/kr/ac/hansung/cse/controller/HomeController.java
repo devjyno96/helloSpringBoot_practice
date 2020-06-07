@@ -16,13 +16,14 @@ static Logger logger = LoggerFactory.getLogger(HomeController.class);
 	@GetMapping("/")
 	public String home(Model model) {
 
+		logger.info("Info: Calling home( )" );
 		logger.debug("Debug: Calling home( )" );
-		logger.trace("Info: Calling home( )" );
+		logger.trace("trace: Calling home( )" );
 		
 		model.addAttribute("message", "hello world");
 		
 		return "index";
 
-	}
-
+	}	
+	
 }

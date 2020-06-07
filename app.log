@@ -656,3 +656,1189 @@ Identify and stop the process that's listening on port 9000 or configure this ap
 2020-06-06 20:50:12,253 INFO [RMI TCP Connection(4)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:218] Shutting down ExecutorService 'applicationTaskExecutor'
 2020-06-06 20:50:12,254 INFO [RMI TCP Connection(4)-127.0.0.1] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
 2020-06-06 20:50:12,267 INFO [RMI TCP Connection(4)-127.0.0.1] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2020-06-06 20:50:25,878 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 15560 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-06 20:50:25,881 DEBUG [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-06 20:50:25,882 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-06 20:50:26,525 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-06 20:50:26,578 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 46ms. Found 1 JPA repository interfaces.
+2020-06-06 20:50:27,040 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-06 20:50:27,047 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-06 20:50:27,048 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-06 20:50:27,049 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-06 20:50:27,224 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-06 20:50:27,225 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1305 ms
+2020-06-06 20:50:27,389 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-06 20:50:27,431 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-06 20:50:27,467 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-06 20:50:27,481 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-06 20:50:27,536 INFO [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:86] 
+
+Using generated security password: a878d545-624c-4fdb-9a01-24b32fd86b06
+
+2020-06-06 20:50:27,621 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-06 20:50:27,632 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f3e9fbb, org.springframework.security.web.context.SecurityContextPersistenceFilter@65c5bf0e, org.springframework.security.web.header.HeaderWriterFilter@2c0c4c0a, org.springframework.security.web.authentication.logout.LogoutFilter@656a3d6b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d05f453, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2bb41f5c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@365afe87, org.springframework.security.web.session.SessionManagementFilter@40ce9049, org.springframework.security.web.access.ExceptionTranslationFilter@1af4955e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@23cd5d42]
+2020-06-06 20:50:27,725 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-06 20:50:28,027 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-06 20:50:28,045 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-06 20:50:30,361 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-06 20:50:30,375 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-06 20:50:30,707 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-06 20:50:30,845 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-06 20:50:30,870 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-06 20:50:30,871 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-06 20:50:30,969 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-06 20:50:30,978 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 5.347 seconds (JVM running for 6.558)
+2020-06-06 20:54:38,698 INFO [http-nio-9000-exec-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-06 20:54:38,718 INFO [http-nio-9000-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-06 20:54:38,829 INFO [http-nio-9000-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 110 ms
+2020-06-06 20:57:15,568 WARN [http-nio-9000-exec-5] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:199] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-06-06 21:08:10,281 INFO [RMI TCP Connection(4)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [SpringApplicationAdminMXBeanRegistrar.java:159] Application shutdown requested.
+2020-06-06 21:08:11,023 INFO [RMI TCP Connection(4)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:598] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-06 21:08:11,145 INFO [RMI TCP Connection(4)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:218] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-06 21:08:11,148 INFO [RMI TCP Connection(4)-127.0.0.1] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2020-06-06 21:08:11,351 INFO [RMI TCP Connection(4)-127.0.0.1] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2020-06-07 11:40:50,933 INFO [restartedMain] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 20320 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 11:40:50,937 DEBUG [restartedMain] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 11:40:50,938 INFO [restartedMain] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 11:40:50,995 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-07 11:40:50,995 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-07 11:40:52,971 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 11:40:53,098 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 105ms. Found 1 JPA repository interfaces.
+2020-06-07 11:40:55,399 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 11:40:55,422 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 11:40:55,423 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 11:40:55,423 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 11:40:55,716 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 11:40:55,717 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 4722 ms
+2020-06-07 11:40:56,102 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 11:40:56,217 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 11:40:56,242 WARN [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 11:40:56,448 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-07 11:40:56,480 INFO [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:86] 
+
+Using generated security password: c3d19fce-c79d-4045-ac9d-4646fcd91da8
+
+2020-06-07 11:40:56,678 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a6f35c5, org.springframework.security.web.context.SecurityContextPersistenceFilter@1c18f166, org.springframework.security.web.header.HeaderWriterFilter@22657bd0, org.springframework.security.web.authentication.logout.LogoutFilter@792761de, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15d08480, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@428a8397, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53da76db, org.springframework.security.web.session.SessionManagementFilter@15f14446, org.springframework.security.web.access.ExceptionTranslationFilter@19d394de, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c3893c5]
+2020-06-07 11:40:57,041 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-07 11:40:57,307 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-07 11:41:00,223 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-07 11:41:00,300 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 11:41:19,429 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 11:41:19,497 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 11:41:20,842 INFO [task-2] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2020-06-07 11:41:21,121 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 11:41:22,456 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 11:41:23,125 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 11:41:23,128 INFO [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 11:41:23,661 INFO [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 11:41:23,674 INFO [restartedMain] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 33.76 seconds (JVM running for 38.084)
+2020-06-07 11:41:37,471 INFO [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-07 11:41:37,472 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-07 11:41:37,530 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 57 ms
+2020-06-07 11:41:38,427 ERROR [http-nio-9000-exec-1] o.t.TemplateEngine [TemplateEngine.java:1136] [THYMELEAF][http-nio-9000-exec-1] Exception processing template "Say Hi": Error resolving template [Say Hi], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [Say Hi], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-06-07 11:41:38,434 ERROR [http-nio-9000-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet] [DirectJDKLog.java:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [Say Hi], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [Say Hi], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-06-07 11:42:16,624 INFO [Thread-198] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:598] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 11:42:16,626 INFO [Thread-198] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:218] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-07 11:42:16,629 INFO [Thread-198] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2020-06-07 11:42:16,682 INFO [Thread-198] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2020-06-07 11:42:16,809 INFO [restartedMain] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 20320 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 11:42:16,809 DEBUG [restartedMain] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 11:42:16,810 INFO [restartedMain] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 11:42:17,084 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 11:42:17,095 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 10ms. Found 1 JPA repository interfaces.
+2020-06-07 11:42:17,372 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 11:42:17,374 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 11:42:17,374 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 11:42:17,375 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 11:42:17,444 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 11:42:17,445 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 633 ms
+2020-06-07 11:42:17,498 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 11:42:17,506 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 11:42:17,519 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-2 - Starting...
+2020-06-07 11:42:17,538 WARN [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 11:42:17,582 INFO [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:86] 
+
+Using generated security password: d5b3eed5-8e6e-4144-bf49-14c083f764c3
+
+2020-06-07 11:42:17,591 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a7d6f7e, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ae192a0, org.springframework.security.web.header.HeaderWriterFilter@159be65a, org.springframework.security.web.authentication.logout.LogoutFilter@4991980f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38b62617, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7255ae6d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7eb69aac, org.springframework.security.web.session.SessionManagementFilter@290e90ba, org.springframework.security.web.access.ExceptionTranslationFilter@6ea79447, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e9a9820]
+2020-06-07 11:42:17,612 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-2 - Start completed.
+2020-06-07 11:42:17,613 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 11:42:19,055 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 11:42:19,055 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 11:42:19,100 INFO [task-2] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2020-06-07 11:42:19,127 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 11:42:19,194 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 11:42:19,199 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 11:42:19,200 INFO [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 11:42:19,215 INFO [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 11:42:19,218 INFO [restartedMain] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 2.441 seconds (JVM running for 93.628)
+2020-06-07 11:42:19,220 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2020-06-07 11:43:13,418 INFO [Thread-202] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:598] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 11:43:13,420 INFO [Thread-202] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:218] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-07 11:43:13,424 INFO [Thread-202] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-2 - Shutdown initiated...
+2020-06-07 11:43:13,438 INFO [Thread-202] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-2 - Shutdown completed.
+2020-06-07 11:43:13,557 INFO [restartedMain] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 20320 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 11:43:13,558 DEBUG [restartedMain] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 11:43:13,559 INFO [restartedMain] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 11:43:14,399 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 11:43:14,417 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 17ms. Found 1 JPA repository interfaces.
+2020-06-07 11:43:14,646 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 11:43:14,647 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 11:43:14,647 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 11:43:14,648 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 11:43:14,772 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 11:43:14,773 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 1210 ms
+2020-06-07 11:43:14,872 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 11:43:14,895 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 11:43:14,904 WARN [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 11:43:14,910 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-3 - Starting...
+2020-06-07 11:43:14,953 INFO [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:86] 
+
+Using generated security password: 8b0bda5b-fa49-4960-b481-4032ec8019a0
+
+2020-06-07 11:43:14,961 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-3 - Start completed.
+2020-06-07 11:43:14,962 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 11:43:14,995 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40093809, org.springframework.security.web.context.SecurityContextPersistenceFilter@436884c2, org.springframework.security.web.header.HeaderWriterFilter@6169aff7, org.springframework.security.web.authentication.logout.LogoutFilter@355c5f09, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f1037f5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@332a35f7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5abf805b, org.springframework.security.web.session.SessionManagementFilter@758e9601, org.springframework.security.web.access.ExceptionTranslationFilter@299ea755, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@ea32f5]
+2020-06-07 11:43:17,257 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 11:43:17,258 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 11:43:17,302 INFO [task-2] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2020-06-07 11:43:17,319 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 11:43:17,366 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 11:43:17,371 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 11:43:17,373 INFO [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 11:43:17,393 INFO [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 11:43:17,396 INFO [restartedMain] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 3.884 seconds (JVM running for 151.806)
+2020-06-07 11:43:17,397 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2020-06-07 11:43:33,213 INFO [Thread-401] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:598] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 11:43:33,214 INFO [Thread-401] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:218] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-07 11:43:33,215 INFO [Thread-401] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-3 - Shutdown initiated...
+2020-06-07 11:43:33,225 INFO [Thread-401] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-3 - Shutdown completed.
+2020-06-07 11:43:33,323 INFO [restartedMain] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 20320 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 11:43:33,328 DEBUG [restartedMain] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 11:43:33,333 INFO [restartedMain] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 11:43:33,746 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 11:43:33,789 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 42ms. Found 1 JPA repository interfaces.
+2020-06-07 11:43:33,959 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 11:43:33,960 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 11:43:33,960 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 11:43:33,961 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 11:43:34,067 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 11:43:34,068 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 730 ms
+2020-06-07 11:43:34,111 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 11:43:34,117 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 11:43:34,136 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-4 - Starting...
+2020-06-07 11:43:34,153 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-4 - Start completed.
+2020-06-07 11:43:34,154 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 11:43:34,192 WARN [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 11:43:34,219 INFO [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:86] 
+
+Using generated security password: 6d776eeb-358a-46ba-a5e5-e34903aaefe8
+
+2020-06-07 11:43:34,225 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3a209fd5, org.springframework.security.web.context.SecurityContextPersistenceFilter@6cc4ff18, org.springframework.security.web.header.HeaderWriterFilter@58e4a320, org.springframework.security.web.authentication.logout.LogoutFilter@43a96b94, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d1d0425, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@201d5105, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a957cc0, org.springframework.security.web.session.SessionManagementFilter@8140fe9, org.springframework.security.web.access.ExceptionTranslationFilter@5fddc6bb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f6a1ae3]
+2020-06-07 11:43:36,399 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 11:43:36,401 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 11:43:36,454 INFO [task-2] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2020-06-07 11:43:36,470 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 11:43:36,526 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 11:43:36,532 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 11:43:36,533 INFO [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 11:43:36,551 INFO [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 11:43:36,555 INFO [restartedMain] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 3.266 seconds (JVM running for 170.965)
+2020-06-07 11:43:36,557 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2020-06-07 11:43:40,241 INFO [Thread-600] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:598] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 11:43:40,242 INFO [Thread-600] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:218] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-07 11:43:40,242 INFO [Thread-600] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-4 - Shutdown initiated...
+2020-06-07 11:43:40,249 INFO [Thread-600] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-4 - Shutdown completed.
+2020-06-07 11:43:42,636 INFO [restartedMain] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 20320 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 11:43:42,637 DEBUG [restartedMain] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 11:43:42,637 INFO [restartedMain] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 11:43:42,860 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 11:43:42,869 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 8ms. Found 1 JPA repository interfaces.
+2020-06-07 11:43:42,974 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 11:43:42,975 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 11:43:42,976 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 11:43:43,036 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 11:43:43,036 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 397 ms
+2020-06-07 11:43:43,086 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 11:43:43,127 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 11:43:43,151 WARN [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 11:43:43,159 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-5 - Starting...
+2020-06-07 11:43:43,177 INFO [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:86] 
+
+Using generated security password: ba05020f-c600-4e72-a1bd-a3f9755cee48
+
+2020-06-07 11:43:43,186 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@188dac43, org.springframework.security.web.context.SecurityContextPersistenceFilter@54bc4bc2, org.springframework.security.web.header.HeaderWriterFilter@2a0ca5dd, org.springframework.security.web.authentication.logout.LogoutFilter@5dbf5fcb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@683407f7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27d97561, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76edf490, org.springframework.security.web.session.SessionManagementFilter@2f1c6c51, org.springframework.security.web.access.ExceptionTranslationFilter@2ba2f2d0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6a828c77]
+2020-06-07 11:43:43,195 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-5 - Start completed.
+2020-06-07 11:43:43,196 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 11:43:45,807 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 11:43:45,808 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 11:43:45,855 INFO [task-2] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2020-06-07 11:43:45,869 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 11:43:45,920 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 11:43:45,921 INFO [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 11:43:45,934 INFO [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 11:43:45,937 INFO [restartedMain] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 3.345 seconds (JVM running for 180.347)
+2020-06-07 11:43:45,942 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2020-06-07 11:50:25,255 INFO [Thread-799] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:598] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 11:50:25,256 INFO [Thread-799] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:218] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-07 11:50:25,257 INFO [Thread-799] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-5 - Shutdown initiated...
+2020-06-07 11:50:25,272 INFO [Thread-799] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-5 - Shutdown completed.
+2020-06-07 11:53:51,427 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 21728 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 11:53:51,431 DEBUG [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 11:53:51,432 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 11:53:53,304 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 11:53:53,386 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 69ms. Found 1 JPA repository interfaces.
+2020-06-07 11:53:54,952 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 11:53:54,965 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 11:53:54,966 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 11:53:54,967 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 11:53:55,260 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 11:53:55,261 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 3697 ms
+2020-06-07 11:53:56,723 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 11:53:57,236 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 11:53:57,263 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 11:53:57,520 INFO [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:86] 
+
+Using generated security password: d612b000-7596-4bcb-aba9-e34aa6829568
+
+2020-06-07 11:53:57,723 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72c9ebfa, org.springframework.security.web.context.SecurityContextPersistenceFilter@7b9088f2, org.springframework.security.web.header.HeaderWriterFilter@64f4f12, org.springframework.security.web.authentication.logout.LogoutFilter@2bec068b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43d76a92, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@476fde05, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@686cf8ad, org.springframework.security.web.session.SessionManagementFilter@3f6cce7f, org.springframework.security.web.access.ExceptionTranslationFilter@599f1b7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6812c8cc]
+2020-06-07 11:53:58,624 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-07 11:54:02,953 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-07 11:54:03,726 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-07 11:54:11,165 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-07 11:54:11,449 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 11:54:16,298 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 11:54:16,309 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 11:54:16,703 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 11:54:17,240 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-07 11:54:17,274 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 11:54:17,335 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 11:54:17,338 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 11:54:17,496 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 11:54:17,509 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 26.716 seconds (JVM running for 27.642)
+2020-06-07 11:55:32,369 INFO [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-07 11:55:32,370 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-07 11:55:32,378 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 8 ms
+2020-06-07 11:55:35,402 DEBUG [http-nio-9000-exec-2] k.a.h.c.c.HomeController [HomeController.java:19] Debug: Calling home( )
+2020-06-07 12:00:34,974 INFO [restartedMain] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 20320 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 12:00:34,976 DEBUG [restartedMain] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 12:00:34,976 INFO [restartedMain] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 12:00:35,286 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 12:00:35,301 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 13ms. Found 1 JPA repository interfaces.
+2020-06-07 12:00:35,443 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 12:00:35,445 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 12:00:35,446 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 12:00:35,543 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 12:00:35,543 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 560 ms
+2020-06-07 12:00:35,578 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 12:00:35,584 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 12:00:35,596 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-6 - Starting...
+2020-06-07 12:00:35,601 WARN [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 12:00:35,622 INFO [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:86] 
+
+Using generated security password: 15d0a44f-415f-4874-9845-94b4c75d004c
+
+2020-06-07 12:00:35,631 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f3a5742, org.springframework.security.web.context.SecurityContextPersistenceFilter@435a4c7a, org.springframework.security.web.header.HeaderWriterFilter@669d5374, org.springframework.security.web.authentication.logout.LogoutFilter@2a95d7ef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65b11fc6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@693bf6f7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45edb11e, org.springframework.security.web.session.SessionManagementFilter@4d03faf4, org.springframework.security.web.access.ExceptionTranslationFilter@5ebf0e51, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@25e574b8]
+2020-06-07 12:00:35,915 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-6 - Start completed.
+2020-06-07 12:00:35,917 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 12:00:39,273 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 12:00:39,275 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 12:00:39,353 INFO [task-2] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:58] LiveReload server is running on port 35729
+2020-06-07 12:00:39,360 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 12:00:39,658 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2020-06-07 12:00:39,659 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:598] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 12:00:39,660 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:218] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-07 12:00:39,660 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-6 - Shutdown initiated...
+2020-06-07 12:00:39,775 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-6 - Shutdown completed.
+2020-06-07 12:00:39,777 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2020-06-07 12:00:39,811 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-07 12:00:39,813 ERROR [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter [LoggingFailureAnalysisReporter.java:40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+2020-06-07 12:00:40,069 WARN [task-2] c.z.h.p.ProxyConnection [ProxyConnection.java:182] HikariPool-6 - Connection com.mysql.cj.jdbc.ConnectionImpl@390fe5f0 marked as broken because of SQLSTATE(08S01), ErrorCode(0)
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 218 milliseconds ago. The last packet sent successfully to the server was 218 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:764)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:601)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:49)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.runScripts(DataSourceInitializer.java:203)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.initSchema(DataSourceInitializer.java:120)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.onApplicationEvent(DataSourceInitializerInvoker.java:91)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.onApplicationEvent(DataSourceInitializerInvoker.java:38)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.publishEventIfRequired(DataSourceInitializedPublisher.java:99)
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.access$100(DataSourceInitializedPublisher.java:50)
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher$DataSourceSchemaCreatedPublisher.lambda$postProcessEntityManagerFactory$0(DataSourceInitializedPublisher.java:200)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 218 milliseconds ago. The last packet sent successfully to the server was 218 milliseconds ago.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:538)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:702)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:641)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:940)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:886)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1073)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:724)
+	... 21 common frames omitted
+Caused by: javax.net.ssl.SSLException: Socket closed
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:264)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:259)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1314)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:839)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:532)
+	... 27 common frames omitted
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:448)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1104)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:823)
+	... 36 common frames omitted
+2020-06-07 12:00:58,005 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 14816 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 12:00:58,008 DEBUG [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 12:00:58,009 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 12:00:59,613 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 12:00:59,710 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 85ms. Found 1 JPA repository interfaces.
+2020-06-07 12:01:02,011 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 12:01:02,025 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:01:02,026 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 12:01:02,026 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 12:01:02,301 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 12:01:02,302 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 4167 ms
+2020-06-07 12:01:02,825 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 12:01:02,934 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 12:01:02,959 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 12:01:03,134 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-07 12:01:03,245 INFO [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:86] 
+
+Using generated security password: b7b24005-afb2-4358-9fce-f1ce81559d1c
+
+2020-06-07 12:01:03,405 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5bb8e6fc, org.springframework.security.web.context.SecurityContextPersistenceFilter@3f6cce7f, org.springframework.security.web.header.HeaderWriterFilter@599f1b7, org.springframework.security.web.authentication.logout.LogoutFilter@2eb0cefe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b9088f2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6459f4ea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2726a511, org.springframework.security.web.session.SessionManagementFilter@5e905f2c, org.springframework.security.web.access.ExceptionTranslationFilter@2801827a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1b8aaeab]
+2020-06-07 12:01:03,744 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-07 12:01:03,927 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-07 12:01:05,124 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-07 12:01:05,633 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 12:01:11,525 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 12:01:11,541 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 12:01:12,023 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 12:01:12,326 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-07 12:01:12,360 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:01:12,397 WARN [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2020-06-07 12:01:12,398 WARN [main] o.s.b.f.s.DisposableBeanAdapter [DisposableBeanAdapter.java:267] Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException
+2020-06-07 12:01:12,400 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:598] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 12:01:12,402 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:218] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-07 12:01:12,403 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2020-06-07 12:01:12,440 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2020-06-07 12:01:12,445 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:01:12,445 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2020-06-07 12:01:12,474 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:01:12,475 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Destroying ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:01:12,488 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-07 12:01:12,492 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter [LoggingFailureAnalysisReporter.java:40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+2020-06-07 12:01:26,034 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 3636 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 12:01:26,038 DEBUG [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 12:01:26,039 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 12:01:27,461 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 12:01:27,548 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 75ms. Found 1 JPA repository interfaces.
+2020-06-07 12:01:28,912 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 12:01:28,927 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:01:28,928 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 12:01:28,928 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 12:01:29,195 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 12:01:29,196 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 3097 ms
+2020-06-07 12:01:29,658 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 12:01:29,727 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 12:01:29,761 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 12:01:29,832 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-07 12:01:30,033 INFO [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:86] 
+
+Using generated security password: 1a7ddeab-e66b-4eb4-b504-9dd2f063ece1
+
+2020-06-07 12:01:30,525 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2cccf134, org.springframework.security.web.context.SecurityContextPersistenceFilter@22cb3d59, org.springframework.security.web.header.HeaderWriterFilter@19b5214b, org.springframework.security.web.authentication.logout.LogoutFilter@5b8853, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5cff729b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36c07c75, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c18942, org.springframework.security.web.session.SessionManagementFilter@28b8f98a, org.springframework.security.web.access.ExceptionTranslationFilter@51888019, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4cc12db2]
+2020-06-07 12:01:30,598 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-07 12:01:30,779 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-07 12:01:31,279 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-07 12:01:31,321 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 12:01:33,607 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 12:01:33,624 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 12:01:34,036 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 12:01:34,436 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-07 12:01:34,472 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:01:34,516 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 12:01:34,518 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 12:01:34,706 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 12:01:34,720 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 9.243 seconds (JVM running for 10.112)
+2020-06-07 12:02:28,180 INFO [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-07 12:02:28,181 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-07 12:02:28,190 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 9 ms
+2020-06-07 12:07:40,931 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 15896 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 12:07:40,934 DEBUG [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 12:07:40,935 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 12:07:42,625 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 12:07:42,703 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 68ms. Found 1 JPA repository interfaces.
+2020-06-07 12:07:44,370 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 12:07:44,382 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:07:44,383 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 12:07:44,383 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 12:07:44,842 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 12:07:44,842 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 3811 ms
+2020-06-07 12:07:45,404 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 12:07:45,528 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 12:07:45,561 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 12:07:45,749 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-07 12:07:45,760 INFO [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:86] 
+
+Using generated security password: c8760584-babd-4ccc-b266-57675be09f24
+
+2020-06-07 12:07:45,928 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c3b6963, org.springframework.security.web.context.SecurityContextPersistenceFilter@6650a6c, org.springframework.security.web.header.HeaderWriterFilter@4fb64a52, org.springframework.security.web.authentication.logout.LogoutFilter@49232c6f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@794240e2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5333f08f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7364f68, org.springframework.security.web.session.SessionManagementFilter@3009eed7, org.springframework.security.web.access.ExceptionTranslationFilter@3cb6e0ee, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30b3d899]
+2020-06-07 12:07:46,361 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-07 12:07:46,529 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-07 12:07:47,317 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-07 12:07:47,385 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 12:07:56,060 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 12:07:56,072 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 12:07:56,622 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 12:07:57,133 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 13 endpoint(s) beneath base path '/actuator'
+2020-06-07 12:07:57,169 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:07:57,420 WARN [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:558] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2020-06-07 12:07:57,421 WARN [main] o.s.b.f.s.DisposableBeanAdapter [DisposableBeanAdapter.java:267] Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException
+2020-06-07 12:07:57,439 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:598] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 12:07:57,443 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:218] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-07 12:07:57,444 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2020-06-07 12:07:57,547 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2020-06-07 12:07:57,555 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Pausing ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:07:57,555 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2020-06-07 12:07:57,564 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Stopping ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:07:57,567 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Destroying ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:07:57,583 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-07 12:07:57,589 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter [LoggingFailureAnalysisReporter.java:40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+2020-06-07 12:09:09,868 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 16532 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 12:09:09,871 DEBUG [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 12:09:09,872 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 12:09:11,310 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 12:09:11,378 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 59ms. Found 1 JPA repository interfaces.
+2020-06-07 12:09:12,685 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 12:09:12,698 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:09:12,699 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 12:09:12,700 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 12:09:12,910 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 12:09:12,910 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 2963 ms
+2020-06-07 12:09:13,432 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 12:09:13,494 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 12:09:13,540 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 12:09:13,620 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-07 12:09:13,719 INFO [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:86] 
+
+Using generated security password: 6e5113ec-c1e1-4a10-9c11-80b7476cce98
+
+2020-06-07 12:09:13,901 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@451e2fa9, org.springframework.security.web.context.SecurityContextPersistenceFilter@3a3f96ab, org.springframework.security.web.header.HeaderWriterFilter@4602f874, org.springframework.security.web.authentication.logout.LogoutFilter@27ec8754, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43c7fe8a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4fd74223, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@497ed877, org.springframework.security.web.session.SessionManagementFilter@3487442d, org.springframework.security.web.access.ExceptionTranslationFilter@7d37ee0c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@120aa40b]
+2020-06-07 12:09:13,939 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-07 12:09:14,157 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-07 12:09:14,679 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-07 12:09:14,732 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 12:09:16,471 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 12:09:16,488 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 12:09:16,947 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 12:09:17,324 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 13 endpoint(s) beneath base path '/actuator'
+2020-06-07 12:09:17,360 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:09:17,418 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 12:09:17,419 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 12:09:17,600 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 12:09:17,614 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 8.269 seconds (JVM running for 9.528)
+2020-06-07 12:09:32,005 INFO [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-07 12:09:32,006 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-07 12:09:32,015 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 8 ms
+2020-06-07 12:13:15,085 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 4416 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 12:13:15,095 DEBUG [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 12:13:15,096 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 12:13:16,756 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 12:13:16,838 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 67ms. Found 1 JPA repository interfaces.
+2020-06-07 12:13:18,481 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 12:13:18,493 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:13:18,494 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 12:13:18,494 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 12:13:18,761 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 12:13:18,762 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 3599 ms
+2020-06-07 12:13:19,185 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 12:13:19,245 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 12:13:19,280 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 12:13:19,343 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-07 12:13:19,465 INFO [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:86] 
+
+Using generated security password: 02c23208-01a1-4e64-ab62-c0a513040614
+
+2020-06-07 12:13:19,751 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37c7766e, org.springframework.security.web.context.SecurityContextPersistenceFilter@1bd8afc8, org.springframework.security.web.header.HeaderWriterFilter@b1b471, org.springframework.security.web.authentication.logout.LogoutFilter@7d30007d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65da01f4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d194314, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3fb450d7, org.springframework.security.web.session.SessionManagementFilter@6544899b, org.springframework.security.web.access.ExceptionTranslationFilter@5968800d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@46f73ffa]
+2020-06-07 12:13:19,788 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-07 12:13:20,007 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-07 12:13:20,566 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-07 12:13:20,614 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 12:13:22,370 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 12:13:22,386 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 12:13:22,852 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 12:13:23,155 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-06-07 12:13:23,191 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:13:23,227 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 12:13:23,229 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 12:13:23,379 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 12:13:23,394 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 8.869 seconds (JVM running for 9.808)
+2020-06-07 12:13:31,100 INFO [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-07 12:13:31,100 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-07 12:13:31,108 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 7 ms
+2020-06-07 12:14:06,686 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 15124 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 12:14:06,690 DEBUG [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 12:14:06,690 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 12:14:08,099 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 12:14:08,167 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 58ms. Found 1 JPA repository interfaces.
+2020-06-07 12:14:09,440 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 12:14:09,456 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:14:09,457 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 12:14:09,458 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 12:14:09,687 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 12:14:09,688 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 2934 ms
+2020-06-07 12:14:10,225 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 12:14:10,283 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 12:14:10,323 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 12:14:10,433 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-07 12:14:10,523 INFO [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:86] 
+
+Using generated security password: 27303b9b-d824-42b0-bbae-52fb2c91d028
+
+2020-06-07 12:14:10,669 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@787988f4, org.springframework.security.web.context.SecurityContextPersistenceFilter@2313db84, org.springframework.security.web.header.HeaderWriterFilter@16cb9989, org.springframework.security.web.authentication.logout.LogoutFilter@bbb6f0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14b4340c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33d28f0a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@132e3594, org.springframework.security.web.session.SessionManagementFilter@d2708a7, org.springframework.security.web.access.ExceptionTranslationFilter@578a5ce8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4eeab3e]
+2020-06-07 12:14:10,709 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-07 12:14:10,888 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-07 12:14:11,414 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-07 12:14:11,454 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 12:14:13,989 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 12:14:14,000 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 12:14:14,427 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 12:14:14,749 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-07 12:14:14,790 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:14:14,833 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 12:14:14,836 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 12:14:15,084 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 12:14:15,108 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 8.934 seconds (JVM running for 9.953)
+2020-06-07 12:14:57,426 INFO [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-07 12:14:57,426 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-07 12:14:57,434 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 7 ms
+2020-06-07 12:37:23,656 DEBUG [http-nio-9000-exec-6] k.a.h.c.c.HomeController [HomeController.java:19] Debug: Calling home( )
+2020-06-07 12:38:06,399 DEBUG [http-nio-9000-exec-8] k.a.h.c.c.HomeController [HomeController.java:19] Debug: Calling home( )
+2020-06-07 12:38:08,351 DEBUG [http-nio-9000-exec-9] k.a.h.c.c.HomeController [HomeController.java:19] Debug: Calling home( )
+2020-06-07 12:38:15,051 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 15780 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 12:38:15,055 DEBUG [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 12:38:15,055 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 12:38:16,511 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 12:38:16,595 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 71ms. Found 1 JPA repository interfaces.
+2020-06-07 12:38:17,938 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 12:38:17,949 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:38:17,950 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 12:38:17,950 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 12:38:18,189 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 12:38:18,189 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 3073 ms
+2020-06-07 12:38:18,622 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 12:38:18,686 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 12:38:18,766 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 12:38:18,805 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-07 12:38:18,965 INFO [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:86] 
+
+Using generated security password: c45fb45a-1870-44ac-881b-25fcf387f893
+
+2020-06-07 12:38:19,209 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-07 12:38:19,209 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f8f1712, org.springframework.security.web.context.SecurityContextPersistenceFilter@7a0ab480, org.springframework.security.web.header.HeaderWriterFilter@6b1321b7, org.springframework.security.web.authentication.logout.LogoutFilter@231b35fb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@130cfc47, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@581c9bb7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34a6d9db, org.springframework.security.web.session.SessionManagementFilter@6d4a82, org.springframework.security.web.access.ExceptionTranslationFilter@7ac48e10, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3dec3f87]
+2020-06-07 12:38:19,402 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-07 12:38:19,921 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-07 12:38:19,963 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 12:38:24,401 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 12:38:24,654 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 12:38:25,893 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 12:38:26,512 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-07 12:38:26,580 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:38:26,672 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 12:38:26,674 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 12:38:26,807 INFO [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-07 12:38:26,808 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-07 12:38:26,838 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 30 ms
+2020-06-07 12:38:26,907 DEBUG [http-nio-9000-exec-1] k.a.h.c.c.HomeController [HomeController.java:19] Debug: Calling home( )
+2020-06-07 12:38:26,920 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 12:38:26,936 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 12.421 seconds (JVM running for 13.215)
+2020-06-07 12:38:31,729 DEBUG [http-nio-9000-exec-4] k.a.h.c.c.HomeController [HomeController.java:19] Debug: Calling home( )
+2020-06-07 12:58:18,648 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 5272 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 12:58:18,652 DEBUG [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 12:58:18,652 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 12:58:19,956 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 12:58:20,037 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 71ms. Found 1 JPA repository interfaces.
+2020-06-07 12:58:21,367 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 12:58:21,382 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:58:21,383 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 12:58:21,383 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 12:58:21,619 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 12:58:21,620 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 2907 ms
+2020-06-07 12:58:21,991 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 12:58:22,069 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 12:58:22,094 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 12:58:22,169 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-07 12:58:22,262 WARN [main] o.s.s.c.u.User [User.java:334] User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2020-06-07 12:58:22,449 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-07 12:58:22,586 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-07 12:58:22,663 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77083e41, org.springframework.security.web.context.SecurityContextPersistenceFilter@3a3f96ab, org.springframework.security.web.header.HeaderWriterFilter@4602f874, org.springframework.security.web.csrf.CsrfFilter@51888019, org.springframework.security.web.authentication.logout.LogoutFilter@5b48f0f4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43c7fe8a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4fd74223, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@231df705, org.springframework.security.web.session.SessionManagementFilter@3487442d, org.springframework.security.web.access.ExceptionTranslationFilter@7d37ee0c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1373e3ee]
+2020-06-07 12:58:23,672 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-07 12:58:23,846 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 12:58:29,884 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 12:58:29,910 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 12:58:30,836 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 12:58:31,474 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-07 12:58:31,529 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 12:58:31,770 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 12:58:31,772 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 12:58:32,540 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 12:58:32,581 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 14.456 seconds (JVM running for 15.229)
+2020-06-07 12:59:05,489 INFO [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-07 12:59:05,490 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-07 12:59:05,504 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 14 ms
+2020-06-07 12:59:05,632 DEBUG [http-nio-9000-exec-1] k.a.h.c.c.HomeController [HomeController.java:19] Debug: Calling home( )
+2020-06-07 12:59:06,384 DEBUG [http-nio-9000-exec-2] k.a.h.c.c.HomeController [HomeController.java:19] Debug: Calling home( )
+2020-06-07 12:59:08,469 DEBUG [http-nio-9000-exec-3] k.a.h.c.c.HomeController [HomeController.java:19] Debug: Calling home( )
+2020-06-07 12:59:20,511 WARN [http-nio-9000-exec-10] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [355] milliseconds.
+2020-06-07 13:05:29,575 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 8612 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 13:05:29,578 DEBUG [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 13:05:29,579 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 13:05:30,919 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 13:05:30,990 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 61ms. Found 1 JPA repository interfaces.
+2020-06-07 13:05:32,217 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 13:05:32,231 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 13:05:32,231 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 13:05:32,232 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 13:05:32,469 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 13:05:32,470 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 2838 ms
+2020-06-07 13:05:32,878 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 13:05:32,945 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 13:05:32,971 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 13:05:33,107 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-07 13:05:33,147 WARN [main] o.s.s.c.u.User [User.java:334] User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2020-06-07 13:05:33,340 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-07 13:05:33,487 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-07 13:05:33,616 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39d77de9, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b43f314, org.springframework.security.web.header.HeaderWriterFilter@4f235107, org.springframework.security.web.csrf.CsrfFilter@723e2d08, org.springframework.security.web.authentication.logout.LogoutFilter@6b8b5020, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@72a8361b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f3356c0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4aaecabd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@696fad31, org.springframework.security.web.session.SessionManagementFilter@1c5d3a37, org.springframework.security.web.access.ExceptionTranslationFilter@787988f4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@681e913c]
+2020-06-07 13:05:34,097 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-07 13:05:34,138 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 13:05:36,768 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 13:05:36,786 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 13:05:37,269 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 13:05:37,618 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-07 13:05:37,650 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 13:05:37,705 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 13:05:37,707 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 13:05:37,861 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 13:05:37,874 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 8.804 seconds (JVM running for 9.588)
+2020-06-07 13:05:43,647 INFO [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-07 13:05:43,647 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-07 13:05:43,656 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 9 ms
+2020-06-07 13:05:48,615 DEBUG [http-nio-9000-exec-3] k.a.h.c.c.HomeController [HomeController.java:19] Debug: Calling home( )
+2020-06-07 13:05:53,930 WARN [http-nio-9000-exec-4] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [356] milliseconds.
+2020-06-07 13:08:36,503 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 20004 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 13:08:36,506 DEBUG [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 13:08:36,507 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 13:08:38,127 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 13:08:38,225 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 80ms. Found 1 JPA repository interfaces.
+2020-06-07 13:08:39,785 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 13:08:39,797 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 13:08:39,798 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 13:08:39,799 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 13:08:40,032 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 13:08:40,033 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 3433 ms
+2020-06-07 13:08:40,474 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 13:08:40,541 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 13:08:40,635 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 13:08:40,673 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-07 13:08:40,833 WARN [main] o.s.s.c.u.User [User.java:334] User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2020-06-07 13:08:40,994 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-07 13:08:41,195 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-07 13:08:41,340 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7eb27768, org.springframework.security.web.context.SecurityContextPersistenceFilter@5012c571, org.springframework.security.web.header.HeaderWriterFilter@34a6d9db, org.springframework.security.web.csrf.CsrfFilter@216c22ce, org.springframework.security.web.authentication.logout.LogoutFilter@4cc12db2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@224d86d2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@511da44f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71d55b7e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6169be09, org.springframework.security.web.session.SessionManagementFilter@756808cc, org.springframework.security.web.access.ExceptionTranslationFilter@46468f0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@584ca390]
+2020-06-07 13:08:41,854 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-07 13:08:41,903 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 13:08:43,902 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 13:08:43,918 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 13:08:44,436 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 13:08:44,736 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-07 13:08:44,769 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 13:08:44,802 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 13:08:44,803 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 13:08:45,059 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 13:08:45,111 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 9.169 seconds (JVM running for 9.983)
+2020-06-07 13:08:56,456 INFO [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-07 13:08:56,457 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-07 13:08:56,468 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 11 ms
+2020-06-07 13:08:57,256 WARN [http-nio-9000-exec-1] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [353] milliseconds.
+2020-06-07 13:13:33,606 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 23340 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 13:13:33,609 DEBUG [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 13:13:33,610 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 13:13:34,991 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 13:13:35,082 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 79ms. Found 1 JPA repository interfaces.
+2020-06-07 13:13:36,346 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 13:13:36,359 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 13:13:36,361 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 13:13:36,361 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 13:13:36,591 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 13:13:36,591 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 2922 ms
+2020-06-07 13:13:36,986 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 13:13:37,045 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 13:13:37,085 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 13:13:37,153 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-07 13:13:37,412 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75793f17, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f235107, org.springframework.security.web.header.HeaderWriterFilter@212fafd1, org.springframework.security.web.csrf.CsrfFilter@3002e397, org.springframework.security.web.authentication.logout.LogoutFilter@22cb3d59, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@29d070c7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c5d3a37, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51888019, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4652c74d, org.springframework.security.web.session.SessionManagementFilter@787988f4, org.springframework.security.web.access.ExceptionTranslationFilter@581c9bb7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@28ee882c]
+2020-06-07 13:13:37,493 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-07 13:13:37,667 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-07 13:13:38,156 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-07 13:13:38,196 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 13:13:40,621 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 13:13:40,637 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 13:13:41,091 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 13:13:41,403 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-07 13:13:41,440 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 13:13:41,473 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 13:13:41,476 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 13:13:41,633 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 13:13:41,649 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 8.516 seconds (JVM running for 9.385)
+2020-06-07 13:13:54,441 INFO [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-07 13:13:54,441 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-07 13:13:54,449 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 8 ms
+2020-06-07 13:13:54,846 WARN [http-nio-9000-exec-1] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [353] milliseconds.
+2020-06-07 13:17:37,541 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 17624 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 13:17:37,544 DEBUG [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 13:17:37,545 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 13:17:38,962 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 13:17:39,065 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 93ms. Found 1 JPA repository interfaces.
+2020-06-07 13:17:40,291 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 13:17:40,302 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 13:17:40,303 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 13:17:40,304 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 13:17:40,500 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 13:17:40,501 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 2899 ms
+2020-06-07 13:17:40,855 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 13:17:40,913 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 13:17:40,952 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 13:17:41,000 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-07 13:17:41,274 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2997ddfc, org.springframework.security.web.context.SecurityContextPersistenceFilter@4eeab3e, org.springframework.security.web.header.HeaderWriterFilter@14f060b8, org.springframework.security.web.csrf.CsrfFilter@6459f4ea, org.springframework.security.web.authentication.logout.LogoutFilter@5fb3111a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3a0b6a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2eb0cefe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@448462f0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28ee882c, org.springframework.security.web.session.SessionManagementFilter@79df80a4, org.springframework.security.web.access.ExceptionTranslationFilter@723e2d08, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@52f8a6f4]
+2020-06-07 13:17:41,294 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-07 13:17:41,481 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-07 13:17:41,927 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-07 13:17:41,970 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 13:17:43,978 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 13:17:43,994 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 13:17:44,436 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 13:17:44,792 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-07 13:17:44,822 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 13:17:44,857 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 13:17:44,859 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 13:17:45,020 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 13:17:45,041 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 7.983 seconds (JVM running for 8.761)
+2020-06-07 13:18:01,635 INFO [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-07 13:18:01,636 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-07 13:18:01,647 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 11 ms
+2020-06-07 13:18:01,704 DEBUG [http-nio-9000-exec-1] k.a.h.c.c.HomeController [HomeController.java:19] Debug: Calling home( )
+2020-06-07 13:18:07,667 WARN [http-nio-9000-exec-2] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [349] milliseconds.
+2020-06-07 13:19:58,994 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 16224 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 13:19:58,997 DEBUG [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 13:19:58,997 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 13:20:00,512 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 13:20:00,601 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 79ms. Found 1 JPA repository interfaces.
+2020-06-07 13:20:02,187 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 13:20:02,199 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 13:20:02,200 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 13:20:02,200 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 13:20:02,410 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 13:20:02,411 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 3348 ms
+2020-06-07 13:20:02,814 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 13:20:02,875 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 13:20:02,937 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 13:20:03,008 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-07 13:20:03,233 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74a820bf, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f664bee, org.springframework.security.web.header.HeaderWriterFilter@21b51e59, org.springframework.security.web.csrf.CsrfFilter@5a7b309b, org.springframework.security.web.authentication.logout.LogoutFilter@5bfc79cb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@60591e1b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4fd74223, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3457cc8d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a30722c, org.springframework.security.web.session.SessionManagementFilter@6b4a4e40, org.springframework.security.web.access.ExceptionTranslationFilter@43c7fe8a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@231df705]
+2020-06-07 13:20:03,252 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-07 13:20:03,449 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-07 13:20:04,180 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-07 13:20:04,219 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 13:20:07,342 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 13:20:07,366 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 13:20:07,787 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 13:20:08,194 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-07 13:20:08,251 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 13:20:08,803 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 13:20:08,804 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 13:20:08,967 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 13:20:08,986 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 10.628 seconds (JVM running for 11.466)
+2020-06-07 13:20:33,904 INFO [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-07 13:20:33,905 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-07 13:20:33,913 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 8 ms
+2020-06-07 13:20:34,720 WARN [http-nio-9000-exec-1] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [337] milliseconds.
+2020-06-07 13:20:41,497 DEBUG [http-nio-9000-exec-4] k.a.h.c.c.HomeController [HomeController.java:19] Debug: Calling home( )
+2020-06-07 13:24:35,040 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 19300 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 13:24:35,043 DEBUG [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-06-07 13:24:35,043 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 13:24:36,626 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 13:24:36,706 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 69ms. Found 1 JPA repository interfaces.
+2020-06-07 13:24:38,088 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 13:24:38,103 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 13:24:38,105 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 13:24:38,105 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 13:24:38,366 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 13:24:38,367 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 3264 ms
+2020-06-07 13:24:38,779 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 13:24:38,875 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 13:24:38,954 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 13:24:39,008 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-07 13:24:39,212 WARN [main] o.s.s.c.u.User [User.java:334] User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2020-06-07 13:24:39,406 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-07 13:24:39,554 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-07 13:24:39,796 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75bd28d, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b48f0f4, org.springframework.security.web.header.HeaderWriterFilter@72c9ebfa, org.springframework.security.web.csrf.CsrfFilter@76563ae7, org.springframework.security.web.authentication.logout.LogoutFilter@52ecc989, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@68dfda77, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5bfc79cb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4981d95b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@129c4d19, org.springframework.security.web.session.SessionManagementFilter@747f6c5a, org.springframework.security.web.access.ExceptionTranslationFilter@5bb8e6fc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f4a1cac]
+2020-06-07 13:24:40,375 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-07 13:24:40,433 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 13:24:43,369 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 13:24:43,378 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 13:24:43,781 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 13:24:44,154 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-07 13:24:44,208 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 13:24:44,257 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 13:24:44,259 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 13:24:44,432 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 13:24:44,447 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 9.916 seconds (JVM running for 10.711)
+2020-06-07 13:24:47,747 INFO [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-07 13:24:47,747 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-07 13:24:47,755 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 8 ms
+2020-06-07 13:24:48,155 WARN [http-nio-9000-exec-1] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [363] milliseconds.
+2020-06-07 13:24:53,327 DEBUG [http-nio-9000-exec-3] k.a.h.c.c.HomeController [HomeController.java:19] Debug: Calling home( )
+2020-06-07 13:25:13,294 DEBUG [http-nio-9000-exec-1] k.a.h.c.c.HomeController [HomeController.java:19] Debug: Calling home( )
+2020-06-07 13:25:25,302 DEBUG [http-nio-9000-exec-8] k.a.h.c.c.HomeController [HomeController.java:19] Debug: Calling home( )
+2020-06-07 13:25:40,299 DEBUG [http-nio-9000-exec-2] k.a.h.c.c.HomeController [HomeController.java:19] Debug: Calling home( )
+2020-06-07 13:38:37,889 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 2080 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 13:38:37,895 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 13:38:39,705 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 13:38:39,796 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 79ms. Found 1 JPA repository interfaces.
+2020-06-07 13:38:41,345 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 13:38:41,358 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 13:38:41,359 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 13:38:41,360 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 13:38:41,633 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 13:38:41,633 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 3667 ms
+2020-06-07 13:38:42,150 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 13:38:42,224 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 13:38:42,329 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 13:38:42,389 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-07 13:38:42,566 WARN [main] o.s.s.c.u.User [User.java:334] User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2020-06-07 13:38:42,720 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-07 13:38:42,909 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-07 13:38:43,337 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@68e2d03e, org.springframework.security.web.context.SecurityContextPersistenceFilter@2407a36c, org.springframework.security.web.header.HeaderWriterFilter@6889f56f, org.springframework.security.web.csrf.CsrfFilter@132e3594, org.springframework.security.web.authentication.logout.LogoutFilter@4def7d36, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@743c3520, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@28b8f98a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a7b309b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@120aa40b, org.springframework.security.web.session.SessionManagementFilter@26da1ba2, org.springframework.security.web.access.ExceptionTranslationFilter@1332dec4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@755b5f30]
+2020-06-07 13:38:43,744 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-07 13:38:43,963 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 13:38:47,366 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 13:38:47,406 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 13:38:48,572 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 13:38:49,056 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-07 13:38:49,155 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 13:38:50,555 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 13:38:50,558 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 13:38:50,744 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 13:38:50,756 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 13.47 seconds (JVM running for 14.371)
+2020-06-07 13:39:01,903 INFO [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-07 13:39:01,903 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-07 13:39:01,911 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 8 ms
+2020-06-07 13:39:22,682 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 21596 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 13:39:22,686 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 13:39:24,235 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 13:39:24,311 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 65ms. Found 1 JPA repository interfaces.
+2020-06-07 13:39:25,633 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 13:39:25,645 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 13:39:25,646 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 13:39:25,646 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 13:39:25,855 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 13:39:25,856 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 3104 ms
+2020-06-07 13:39:26,254 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 13:39:26,325 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 13:39:26,378 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 13:39:26,481 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-07 13:39:26,600 WARN [main] o.s.s.c.u.User [User.java:334] User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2020-06-07 13:39:26,735 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-07 13:39:26,934 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-07 13:39:27,181 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@785ed99c, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c835217, org.springframework.security.web.header.HeaderWriterFilter@2b43f314, org.springframework.security.web.csrf.CsrfFilter@79df80a4, org.springframework.security.web.authentication.logout.LogoutFilter@7739aac4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4652c74d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@51888019, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6889f56f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c4ce583, org.springframework.security.web.session.SessionManagementFilter@4f3356c0, org.springframework.security.web.access.ExceptionTranslationFilter@1c5d3a37, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58d4238e]
+2020-06-07 13:39:27,677 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-07 13:39:27,716 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 13:39:30,595 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 13:39:30,607 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 13:39:30,962 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 13:39:31,272 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-07 13:39:31,304 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 13:39:31,337 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 13:39:31,338 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 13:39:31,486 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 13:39:31,499 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 9.353 seconds (JVM running for 10.327)
+2020-06-07 13:40:00,195 INFO [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-07 13:40:00,195 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-07 13:40:00,202 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 7 ms
+2020-06-07 13:40:00,246 INFO [http-nio-9000-exec-1] k.a.h.c.c.HomeController [HomeController.java:19] Info: Calling home( )
+2020-06-07 13:40:42,020 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on DESKTOP-7IVPLET with PID 15460 (D:\Dev\workspace\helloSpringBoot\target\classes started by 김남윤 in D:\Dev\workspace\helloSpringBoot)
+2020-06-07 13:40:42,025 INFO [main] k.a.h.c.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-06-07 13:40:43,397 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-07 13:40:43,460 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 54ms. Found 1 JPA repository interfaces.
+2020-06-07 13:40:44,797 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-06-07 13:40:44,810 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-06-07 13:40:44,811 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-06-07 13:40:44,811 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-07 13:40:45,019 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-06-07 13:40:45,020 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:284] Root WebApplicationContext: initialization completed in 2942 ms
+2020-06-07 13:40:45,413 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-07 13:40:45,476 INFO [task-1] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-07 13:40:45,516 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-07 13:40:45,616 INFO [task-1] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-07 13:40:45,690 WARN [main] o.s.s.c.u.User [User.java:334] User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2020-06-07 13:40:45,856 INFO [task-1] o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-07 13:40:46,009 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-06-07 13:40:46,263 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3cb6e0ee, org.springframework.security.web.context.SecurityContextPersistenceFilter@36c07c75, org.springframework.security.web.header.HeaderWriterFilter@5a7b309b, org.springframework.security.web.csrf.CsrfFilter@5fb3111a, org.springframework.security.web.authentication.logout.LogoutFilter@1b8aaeab, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3a788fe0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d850a25, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@530ee28b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b6141f0, org.springframework.security.web.session.SessionManagementFilter@7739aac4, org.springframework.security.web.access.ExceptionTranslationFilter@6b8b5020, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32ab408e]
+2020-06-07 13:40:46,583 INFO [task-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-06-07 13:40:46,621 INFO [task-1] o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-06-07 13:40:48,403 INFO [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-07 13:40:48,419 INFO [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 13:40:48,789 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-06-07 13:40:49,227 INFO [main] o.s.b.a.e.w.EndpointLinksResolver [EndpointLinksResolver.java:58] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-07 13:40:49,263 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-06-07 13:40:49,295 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-06-07 13:40:49,297 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-06-07 13:40:49,459 INFO [main] o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-06-07 13:40:49,473 INFO [main] k.a.h.c.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 7.946 seconds (JVM running for 8.845)
+2020-06-07 13:40:53,817 INFO [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-07 13:40:53,817 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-06-07 13:40:53,826 INFO [http-nio-9000-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 9 ms
+2020-06-07 13:40:53,880 INFO [http-nio-9000-exec-1] k.a.h.c.c.HomeController [HomeController.java:19] Info: Calling home( )
