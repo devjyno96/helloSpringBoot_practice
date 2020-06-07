@@ -41,18 +41,33 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	@Override
 
 	protected void configure(HttpSecurity http) throws Exception {
+		/*
+		 * http.
+		 *     authorizeRequests() 
+		 * 		   .antMatchers("/api/customers/**").hasAnyRole("USER", "ADMIN") 
+		 * 		   .antMatchers("/resources/**").permitAll() 
+		 *         .and() 
+		 *     .formLogin()
+		 * 	  	   .loginPage("/showMyLoginPage")
+		 * 	   	   .loginProcessingUrl("/authenticateTheUser").permitAll() 
+		 *         .and() 
+		 *      .logout()
+		 *        .permitAll();
+		 *        .and()
+		 *      .exceptionHandling().accessDeniedPage("/access-denied");
+		 */
 		http.authorizeRequests()
-		.antMatchers("/api/customers*").hasAnyRole("USER", "ADMIN")				
-		.antMatchers("/resources/**").permitAll()
-		.and()
-		.formLogin()
+        	.antMatchers("/api/customers/**").hasAnyRole("USER","ADMIN")
+        	.antMatchers("/resources/**").permitAll();
+
+		http.formLogin()
 			.loginPage("/showMyLoginPage")
 			.loginProcessingUrl("/authenticateTheUser")
-			.permitAll()
-		.and()
-		.logout().permitAll()
-		.and()
-		.exceptionHandling().accessDeniedPage("/access-denied");
+			.permitAll();
+		
+		http.logout().permitAll();
+		
+		http.exceptionHandling().accessDeniedPage("/accessDenied");		
 
 	}
 
